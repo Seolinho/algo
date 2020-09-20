@@ -2,9 +2,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Spiral {
-                                    //상하좌우
-    private static final int[] dx = {0, 0, -1, 1};
-    private static final int[] dy = {-1, 1, 0, 0};
+                                    //우하좌상
+    private static final int[] dx = {1, 0, -1, 0};
+    private static final int[] dy = {0, -1, 0, 1};
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -27,23 +27,6 @@ public class Spiral {
             x = x + nx;
 
 
-
-
-       /*     if (x == n){
-                //down
-                direction = 1;
-            }
-            if (y == n){
-                //left
-                direction = 2;
-            }
-            if (x <= 0){
-                //up
-                direction = 0;
-            }
-            if(ary[y][x] != 0){
-                direction = 3;
-            }*/
 
 
 
