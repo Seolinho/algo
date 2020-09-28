@@ -6,7 +6,8 @@ public class block {
         Scanner sc = new Scanner(System.in);
         int[][] block = new int[9][9];
         for (int[] row : block) {
-            for (int i = 0; i < block.length; i++) {
+            //직육면체면 렝스 달라짐
+            for (int i = 0; i < row.length; i++) {
                 row[i] = sc.nextInt();
             }
         }
